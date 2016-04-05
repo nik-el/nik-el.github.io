@@ -1,0 +1,184 @@
+.content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+.content__about {
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 450px;
+  margin-right: 50px;
+  padding: 20px;
+  border: 20px solid #c8ddd8;
+}
+.content__project {
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  padding: 20px;
+  border: 20px solid #d7ddc8;
+}
+.about__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.about__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.about__icon {
+  text-align: center;
+}
+.about__icon-link {
+  text-decoration: none;
+}
+.about__text {
+  padding: 0;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.4rem;
+}
+.about__text--end {
+  margin-bottom: 0;
+}
+.about__list {
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  list-style: none;
+}
+.about__item {
+  font-size: 1rem;
+}
+.projects {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.projects__project {
+  position: relative;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+}
+.projects__img {
+  display: block;
+  max-width: 100%;
+}
+.projects__description {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 25, 25, 0.7);
+  text-align: center;
+  transition: opacity 0.2s ease-out 0.1s;
+}
+.projects__project:hover .projects__description {
+  opacity: 1;
+}
+.projects__list {
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+.projects__item {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #fff;
+  padding: 10px 0;
+}
+.projects__item--small {
+  font-size: 1rem;
+}
+.projects__link {
+  padding: 5px 35px;
+  margin: 0px 5px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.projects__link:hover {
+  background-color: rgba(25, 25, 25, 0.7);
+}
+.sprite {
+  position: relative;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 0px 3px;
+}
+.sprite:hover:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  bottom: -22px;
+  left: -20px;
+  white-space: nowrap;
+  color: #000;
+}
+.sprite.sprite-CV {
+  background-position: -10px -10px;
+  width: 32px;
+  height: 32px;
+}
+.sprite.sprite-CV:hover:after {
+  content: 'резюме hh.ru';
+}
+.sprite.sprite-fb {
+  background-position: -62px -10px;
+  width: 32px;
+  height: 32px;
+}
+.sprite.sprite-fb:hover:after {
+  content: 'facebook.com';
+}
+.sprite.sprite-github {
+  background-position: -10px -62px;
+  width: 32px;
+  height: 32px;
+}
+.sprite.sprite-github:hover:after {
+  content: 'github.com';
+}
+.sprite.sprite-mail {
+  background-position: -62px -62px;
+  width: 32px;
+  height: 32px;
+}
+.sprite.sprite-mail:hover:after {
+  content: 'nik-el@mail.ru';
+}
+.sprite.sprite-vk {
+  margin-right: 10px;
+  background-position: -114px -10px;
+  width: 32px;
+  height: 32px;
+}
+.sprite.sprite-vk:hover:after {
+  content: 'vk.com';
+}
