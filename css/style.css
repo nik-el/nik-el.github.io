@@ -268,5 +268,6 @@
   .projects__project {
     flex-direction: column-reverse;
     border: 1px solid #000;
+    height: auto;
   }
 }
