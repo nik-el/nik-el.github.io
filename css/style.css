@@ -201,10 +201,11 @@
     margin-right: 0px;
   }
   .about__avatar-block {
+    width: 40%;
     margin-right: 50px;
   }
   .about__text-block {
-    width: auto;
+    width: 60%;
   }
   .projects {
     flex-direction: column;
@@ -217,6 +218,7 @@
   }
   .projects__description {
     flex-grow: 1;
+    width: 50%;
     position: relative;
     opacity: 1;
     color: #000;
@@ -226,6 +228,7 @@
   }
   .projects__img {
     flex-grow: 0;
+    width: 50%;
     height: auto;
   }
   .projects__list {
@@ -258,6 +261,10 @@
   }
   .about__avatar-block {
     margin: 0 auto;
+    width: 100%;
+  }
+  .about__text-block {
+    width: 100%;
   }
   .about__text {
     text-align: left;
@@ -267,10 +274,14 @@
   }
   .projects__project {
     flex-direction: column-reverse;
-    border: 1px solid #000;
+    border: 10px solid #d7ddc8;
     height: auto;
   }
   .projects__description {
-    position: none;
+    width: 100%;
+    padding-bottom: 200px;
+  }
+  .projects__img {
+    width: 100%;
   }
 }

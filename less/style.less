@@ -283,12 +283,14 @@
     flex-grow: 1;
     flex-direction: row;
     margin-right: 0px;
+    
     &__avatar-block {
+      width: 40%;
       margin-right: 50px;
     }
     
     &__text-block{
-      width: auto;
+      width: 60%;
     }
   }
   
@@ -308,6 +310,7 @@
     }
     &__description {
       flex-grow: 1;
+      width: 50%;
       position: relative;
       opacity: 1;
       color: #000;
@@ -318,6 +321,7 @@
     
     &__img{
       flex-grow: 0;
+      width: 50%;
       height: auto;
     }
     &__list {
@@ -355,6 +359,11 @@
     
     &__avatar-block{
       margin: 0 auto;
+      width: 100%;
+    }
+    
+    &__text-block{
+      width: 100%;
     }
     
     &__text{
@@ -367,12 +376,18 @@
     flex-grow: 0;
     &__project{
       flex-direction: column-reverse;
-      border: 1px solid #000;
+      border: 10px solid spin(@lightmain,-90);
       height: auto;
     }
     
     &__description{
-      position: none;
+      width: 100%;
+      padding-bottom: 200px;
+    }
+    
+    &__img{
+      width: 100%;
+      
     }
   }
 }
