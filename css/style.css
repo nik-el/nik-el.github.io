@@ -29,6 +29,7 @@
 }
 .about__img {
   display: block;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 10px;
 }
@@ -252,6 +253,9 @@
   }
   .about {
     flex-direction: column;
+  }
+  .about__avatar-block {
+    margin: 0 auto;
   }
   .projects {
     flex-grow: 0;
