@@ -270,4 +270,7 @@
     border: 1px solid #000;
     height: auto;
   }
+  .projects__description {
+    position: none;
+  }
 }
