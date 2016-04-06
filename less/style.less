@@ -153,8 +153,6 @@
   
   &__item{
 
-
-    
     padding: 10px 0;
     
     
@@ -383,9 +381,23 @@
       border-bootom: 3px solid spin(@lightmain,-90);
     }
     
-    .__item{
-      font-size: 1rem;
+  &__list{
+    margin: 0;
+    padding: 5px;
+    
+    list-style: none;
+    
+  }
+  
+  &__item{
+
+    padding: 3px 0;
+    
+    
+    &--small{
+      font-size: .5rem;
     }
+  }
     
     &__description{
       position: absolute;
@@ -393,7 +405,7 @@
       height: 100%;
       top:0;
       
-      font-size: 1rem;
+      font-size: .7rem;
       
       background-color: rgba(255,255,255,.8);
 
