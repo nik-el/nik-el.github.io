@@ -243,13 +243,12 @@
 @media (max-width:680px) {
   .content {
     margin: 0;
-    margin-top: 5px;
   }
   .content__about {
-    width: 80%;
+    width: 70%;
   }
   .content__project {
-    width: 80%;
+    width: 70%;
     flex-grow: 1;
   }
   .about {
