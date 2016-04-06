@@ -43,6 +43,7 @@
   text-align: center;
 }
 .about__icon-link {
+  display: inline-block;
   text-decoration: none;
 }
 .about__text {
