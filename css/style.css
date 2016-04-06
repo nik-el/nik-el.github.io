@@ -245,6 +245,10 @@
     border: 1px solid #000;
     border-radius: 2px;
   }
+  .sprite:hover:after {
+    content: '';
+    display: none;
+  }
 }
 @media (max-width:680px) {
   .content {
