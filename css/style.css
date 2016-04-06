@@ -281,12 +281,15 @@
     border-width: 0px;
     border-bootom: 3px solid #d7ddc8;
   }
+  .projects .__item {
+    font-size: 1rem;
+  }
   .projects__description {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: rgba(255, 255, 255, 0.8);
   }
   .projects__img {
