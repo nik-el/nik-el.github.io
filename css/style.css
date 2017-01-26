@@ -9,13 +9,11 @@
   flex-grow: 0;
   width: 450px;
   margin-right: 50px;
-  padding: 20px;
-  border: 20px solid #c8ddd8;
+  padding: 40px;
 }
 .content__project {
   flex-grow: 0;
-  padding: 20px;
-  border: 20px solid #d7ddc8;
+  padding: 40px;
 }
 .about {
   display: flex;
